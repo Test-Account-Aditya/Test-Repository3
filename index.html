@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customer Account Application Form</title>
+    <style>
+        .container{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(121, 111, 111);
+        }
+        .form-center{
+            background-color: white;
+            text-align: left;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            width: 50%;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        section{
+            text-align: right;
+        }
+        h5{
+            border: 2px;
+            width: max-content;
+        }
+        .number1{
+            text-align: center;
+            border: 1px solid black;
+            width: 80%;
+            padding-top: 3px;
+            padding-bottom: 5px;
+            margin-left: 20px;
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+        label{
+            text-align: left;
+            margin-left: 10px;
+        }
+        input{
+            margin-left: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-right: 50px;
+            width: 95%;
+        }
+        .footer{
+            border: 2px solid black;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 30px;
+            display: inline-block;
+            padding-bottom: 5px;
+            background-color: #a9b5bd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .container form .form-row{
+            display: flex;
+            margin: 50px 150px;
+        }
+        form .form-row .input-data{
+            width: 150%;
+            height: 50px;
+            margin: 0 40px;
+            /* / position: relative; / */
+        }
+        .header{
+            height: 30px;
+            margin-top: 5px;
+            padding: 30px;
+        }
+            
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-center">
+            <h3 style="text-align:right; padding: 60px 50px 0px 50px;">
+                Factory 11 <br> 981 Mountain Highway <br> Boronia Vic 3155 <br>03 9878 1399
+                <br><br>ABN: 94 007 000 526
+            </h3>
+            <h4 style="text-align: center; padding: 10px 50px 0px 50px;"><u>New Customer Account Application Form:</u></h4>
+            <p style="padding-left: 48px;">Please return completed form to <a href="mailto:sales@accesshealth.com.au">sales@accesshealth.com.au</a></p>
+
+            <h5 class="number1"><b>Applicant Details</b></h4>
+
+                <form action="/submit-form" method="post">
+
+
+                    <label for="name">ABN:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="ABNname">ABN Business Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="BusinType">Business Type:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="DelAdress">Delivery Address:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="Sub">Suburb:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="State_pc">State & Postcode:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="name">Is postal address same as delivery address: Y/N</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="name">If no please provide postal address:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="name">Phone & Fax:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="name">Accounts Payable Contact:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="name">Accounts Payable Phone:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="email">Accounts Payable Email:</label>
+                    <input type="email" id="name" name="name">
+                    <br><br>
+
+                    <label for="email">Buyer/Purchasing Contact Email:</label>
+                    <input type="email" id="name" name="name">
+                    <br><br>
+
+                </form>
+        </div>
+        
+
+
+    </div>
+
+    <br><br>
+    <div class="container">
+        <div class="form-center">
+            <div class="header"><p style="text-align: center;border: 1px solid black;"><b>Trade References</b></p></div>
+            <form action="/submit-form" method="post">
+
+                <div class="form-row">
+                    <div class="input-data">
+                        <label for="comp-name">Company Name </label>
+                        <div class="underline"></div>
+                        <input type="text" id="comp-name" name="comp-name">
+                        
+                    </div>
+                    <div class="input-data">
+                        <label for="contactName">Contact Name</label>
+                        <div class="underline"></div>
+                        <input type="text" id="contactName" name="contactName">
+                        
+                        
+                    </div>                    
+                </div>
+
+                <div class="form-row">
+                    <div class="input-data">
+                        <label for="phNum">Phone Number</label>
+                        <div class="underline"></div>
+                        <input type="text" id="phNum" name="phNum">
+                        
+                        
+                    </div>
+                    <div class="input-data">
+                        <label for="Email">Email</label>
+                        <div class="underline"></div>
+                        <input type="email" id="Email" name="Email">
+                        
+                        
+                    </div>                   
+                </div>
+                <div class="middle-Heading"><p style="text-align: center; border: 1px solid black;"><b>Directors Details</b></p></div>
+                <p style="text-align: center;">Please complete Names and Address of Directors/Trustees/Partners/Owners/Corporation</p>
+
+                <div class="form-row">
+                    <div class="input-data">
+                        <label for="directrName">Director Name</label>
+                        <div class="underline"></div>
+                        <input type="text" id="directrName" name="directrName">   
+                    </div>
+
+                    <div class="input-data">
+                        <label for="address">Address</label>
+                        <div class="underline"></div>
+                        <input type="text" id="address" name="address">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="input-data">
+                        <label for="directrName">Director Name</label>
+                        <div class="underline"></div>
+                        <input type="text" id="directrName" name="directrName">   
+                    </div>
+
+                    <div class="input-data">
+                        <label for="address">Address</label>
+                        <div class="underline"></div>
+                        <input type="text" id="address" name="address">
+                    </div>
+                </div> 
+
+            </form>
+            
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
